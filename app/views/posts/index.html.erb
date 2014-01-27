@@ -1,0 +1,32 @@
+<div class='container'>
+  <header>
+    <h1>Blog It</h1>
+  </header>
+
+  <div class='row'>
+    <div class='left'>
+      <form id='newPost'>
+        <div class='postType'>
+          <label>Photo: </label>
+          <input type='radio' id='photo' name='post' value='photo' />
+          <label>Post: </label>
+          <input type='radio' id='post' name='post' value='post' />
+        </div>
+
+        <input type='text' id='title' placeholder='Please enter a post title..' />
+
+        <div class='dropdown'>
+          <input type='text' class='display' id='url' placeholder='Please enter an image url...' />
+          <textarea id='content' class='display' placeholder='Please enter your post content'></textarea>
+        </div>
+        <input id='postSubmit' type='submit' />
+      </form>
+    </div>
+
+    <div class='right'>
+      <ul class='postList'>
+
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<li data-id='<%= @id %>' data-type='1' class='entry clearfix'>
+  <h3><%= @title %></h3>
+  <p><%= @content %></p>
+  <button class='button'>Add Comment</button>
+</li>

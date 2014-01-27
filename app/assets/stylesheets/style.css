@@ -1,0 +1,215 @@
+* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'bitstream_vera_serifroman';
+    src: url('/VeraSerif-webfont.eot');
+    src: url('/VeraSerif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/VeraSerif-webfont.woff') format('woff'),
+         url('/VeraSerif-webfont.ttf') format('truetype'),
+         url('/VeraSerif-webfont.svg#bitstream_vera_serifroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**** General ****/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.clearfix:after {
+  display: table;
+  content: " ";
+  clear: both;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-table;
+}
+
+.display {
+  display: none;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  font: normal 14px/22px 'bitstream_vera_serifroman', serif;
+  margin: 0;
+  background: #EBEBEB;
+}
+
+.container {
+  width: 100%;
+  margin-right: 20px;
+  display: block;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font: bold 25px/33px 'bitstream_vera_serifroman', serif;
+  background: -webkit-linear-gradient(top, #2C0344 0, #3F0A63 50%, #2C0344 100%);
+  color: #ffffff;
+  text-shadow: 1px 0 1px #CD5CFF;
+}
+
+.row {
+  width: 100%;
+}
+
+.left {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+#newPost {
+  margin-top: 100px;
+}
+
+.postType {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#title {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+#url, #content {
+  width: 80%;
+  padding: 10px;
+}
+
+#content {
+  overflow: auto;
+  resize: none;
+  height: 80px;
+}
+
+#postSubmit {
+  margin-top: 10px;
+}
+
+.right {
+  float: left;
+  width: 70%;
+  background: #FFFFFF;
+  height: 100vh;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.postList {
+  margin: 0;
+}
+
+.entry {
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.entry h3 {
+  font-size: 18px;
+}
+
+.entry img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.entry li {
+  background: #EBEBEB;
+  padding: 10px;
+  text-align: right;
+  width: 70%;
+  float: right;
+  font-size: 12px;
+  line-height: 12px;
+  clear: both;
+}
+
+.entry li p {
+  background: #FFFFFF;
+  display: inline;
+  padding: 2px 10px;
+}
+
+.commentForm {
+  float: right;
+  clear: both;
+}
+
+.button {
+  float: right;
+  clear: both;
+  margin-top: 20px;
+}

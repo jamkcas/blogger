@@ -1,0 +1,1 @@
+Simple blog app, designed to learn how to create a blog, that is commentable on.

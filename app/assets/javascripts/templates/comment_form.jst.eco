@@ -1,0 +1,6 @@
+<form class='commentForm'>
+  <textarea id='comment', placeholder='Please enter a comment...'></textarea>
+  <input type='hidden' id='commentable_type' value='<%= @type %>'>
+  <input type='hidden' id='commentable_id' value='<%= @id %>'>
+  <input type='submit' />
+</form>
